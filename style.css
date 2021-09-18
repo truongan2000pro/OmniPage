@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 * {
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   font-size: 16px;
   padding: 0px;
@@ -10,6 +12,10 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+.nav-container {
+  position: sticky;
+  top: 0;
 }
 .nav-wrapper {
   background-color: red;
@@ -32,6 +38,16 @@ a {
 }
 .link-wrapper > li > a {
   color: white;
+  font-weight: 300;
   font-size: 18px;
   line-height: 5;
+}
+.cover-img {
+}
+.cover-img > div {
+  height: calc(100vh - 106px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/hero.jpg);
+  background-size: cover;
+  background-position: center;
 }
