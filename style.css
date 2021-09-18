@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-wrapper {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-left-side {
+  padding-right: 250px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.link-wrapper {
+  display: flex;
+}
+.link-wrapper > li {
+  margin-left: 20px;
+}
+.link-wrapper > li > a {
+  color: white;
+  font-size: 18px;
+  line-height: 5;
+}
