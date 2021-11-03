@@ -1,0 +1,33 @@
+/* * {
+  background: linear-gradient(blue, black);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes topDown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 200px;
+  }
+}
+.test {
+  position: absolute;
+  opacity: 1;
+  animation: topDown 1s linear infinite;
+} */
